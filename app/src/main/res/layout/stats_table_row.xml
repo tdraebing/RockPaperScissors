@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/stats_round"
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/stats_choice_player"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"/>
+
+
+    <TextView
+        android:id="@+id/stats_indicator"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/stats_choice_computer"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"/>
+
+</TableRow>
